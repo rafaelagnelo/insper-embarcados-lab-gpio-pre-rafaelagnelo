@@ -35,7 +35,7 @@ int main() {
 
       gpio_put(LED_ROXO, 1);
       sleep_ms(300);
-      gpio_put(LED_RED,0);
+      gpio_put(LED_ROXO,0);
 
       gpio_put(LED_AZUL, 1);
       sleep_ms(300);
